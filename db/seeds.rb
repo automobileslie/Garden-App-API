@@ -6,6 +6,7 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
     Plant.destroy_all
+    User.destroy_all
 
     Plant.create(name: "Zinnias", img: "https://www.almanac.com/sites/default/files/styles/primary_image_in_article/public/image_nodes/zinnias-assorted-edit.jpg?itok=FA-Rqlos", plant_information: "1885  W. Pater Marius the Epicurean I. xi. 187  They visited the flower-market..and purchased zinias..to decorate the folds of their togas. --Oxford English Dictionary")
     Plant.create(name: "Marigolds", img: "http://libapps.s3.amazonaws.com/accounts/131348/images/Tagetes_French_Marigold2_MM.jpg", plant_information: "1846 C. Dickens Dombey & Son (1848) viii. 72   The small front-gardens had the unaccountable property of producing nothing but marigolds. --Oxford English Dictionary")
@@ -40,4 +41,6 @@
     Plant.create(name: "Plums", img: "https://www.bbg.org/img/uploads/lightbox/_lightbox_retina/plums_MM_14916894792.jpg", plant_information: "The children were nestled all snug in their beds, While visions of sugar-plums danced in their heads. --Clement Clarke Moore, A Visit From St. Nicholas")
     Plant.create(name: "Winterberry", img: "https://www.bbg.org/img/uploads/lightbox/_tile_thumbnail_regular/winterberry_LP_23073381536.jpg", plant_information: "Extremely showy in late fall and early winter when covered with their bright red fruit, these shrubs are either male or female--a trait typical of the holly family. Birds are readily attracted to them. Since this shrub grows in both wet and dry sites, it is an adaptable naturalizer. --wildflower.org")
 
-    
+    User.create(username: "Carlie", password_digest: "carlie")
+    User.create(username: "Trevor", password_digest: "trevor")
+    User.create(username: "James", password_digest: "james")
