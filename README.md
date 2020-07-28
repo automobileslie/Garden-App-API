@@ -10,4 +10,4 @@ A demo of the project is available here: https://www.carlieanglemire.com/static/
 
 ● Stored data including updates, posts, and deletes from forms on the front-end using Ruby on Rails
 
-● Built front-end functionality with React and React Router and styled the front-end with custom CSS
+● Built front-end functionality with React and React Router and styled the front-end with CSS
